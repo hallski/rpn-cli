@@ -22,7 +22,7 @@
 
 - (void)start
 {
-    [self.io outputLine:@"RPN CalBot 2014 At Your Service!"];
+    [self.io outputLine:@"RPN CalcBot 2014 At Your Service!"];
 
     while (YES) {
         NSString *input = [self.io readLine];
